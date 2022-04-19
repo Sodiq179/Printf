@@ -15,10 +15,15 @@ C programming language Printf function implementaion
 
 ## Description of what each file shows:
 man_3_printf ----------------------- custom manpage for custom _printf function
+
 printf.c ---------------------------- holds custom _printf function
+
 main.h ------------------------ holds prototypes of functions spread across all files
+
 functions.c --------------------------- holds the custom-made putchar, convert_to and string_len functions
+
 placeholder_1.c --------------------------- holds the functions for character, strings, signed integers and unsigned integers placeholder
+
 placeholder_2.c --------------------------- holds the functions for lowrcase hexadecimal, uppercase hexadecimal, octal and address placeholder
 
 ## Environment
@@ -32,11 +37,11 @@ placeholder_2.c --------------------------- holds the functions for lowrcase hex
 (terminal)$ cd printf
 Sample main program inside print.c:
 
-int main(void)
+**int main(void)
 {
 	_printf("%s %c%drld %s", "Hello", "W", 0, "ALX students.");
 	return (0);
-}
+}**
 ====================================
 (terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print_out
 (terminal)$ ./print_out
