@@ -33,20 +33,21 @@ placeholder_2.c --------------------------- holds the functions for lowrcase hex
 - Style guidelines: Betty style
 
 ## How To Install & Compile
-(terminal)$ git clone https://github.com/Sodiq179/printf.git
-(terminal)$ cd printf
-Sample main program inside print.c:
+- (terminal)$ git clone https://github.com/Sodiq179/printf.git
+- (terminal)$ cd printf
+- Sample main program inside print.c:
 
 **int main(void)
 {
 	_printf("%s %c%drld %s", "Hello", "W", 0, "ALX students.");
 	return (0);
 }**
+
 ====================================
-(terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print_out
-(terminal)$ ./print_out
-Hello W0rld ALX students.
-(terminal)$
+- (terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print_out
+- (terminal)$ ./print_out
+- Hello W0rld ALX students.
+- (terminal)$
 
 ## NOTE
 Our mini-version does not handle all the general function of the original printf function in C programming language. It currently handles conversion specifiers: c, s, %, d, i, x, X, o and does not yet support field width, precision, flag characters, or length modifiers.
