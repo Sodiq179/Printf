@@ -35,7 +35,7 @@ placeholder_2.c --------------------------- holds the functions for lowrcase hex
 ## How To Install & Compile
 - (terminal)$ git clone https://github.com/Sodiq179/printf.git
 - (terminal)$ cd printf
-- Sample main program inside print.c:
+- Sample main program inside practice.c:
 
 **int main(void)
 {
